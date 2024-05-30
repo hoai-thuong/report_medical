@@ -90,9 +90,13 @@ This web application is built using ReactJS for the frontend, ExpressJS for the 
 
 
 # Contact
+
 Author: Hoài Thương
+
 Email: thuongcth03@gmail.com
+
 GitHub: hoaithuong
+
 Thank you for using our application! If you have any questions, feel free to reach out.
 
 

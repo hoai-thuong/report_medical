@@ -6,9 +6,6 @@ This web application is built using ReactJS for the frontend, ExpressJS for the 
 
 - **User Authentication:** Secure login and registration using JWT.
 - **CRUD Operations:** Create, Read, Update, and Delete functionality for various resources.
-- **Responsive Design:** Optimized for both desktop and mobile devices.
-- **API Integration:** Robust API built with ExpressJS to handle frontend requests and database operations.
-- **Real-time Data:** Live updates and notifications using WebSockets.
 
 ## Technologies Used
 

@@ -54,38 +54,37 @@ This web application is built using ReactJS for the frontend, ExpressJS for the 
    ```bash
    cd ../frontend
    npm install
-Set up environment variables:
+4. **Set up environment variables**
 
-Create a .env file in the backend directory and add the following:
+1. **Create a `.env` file in the backend directory and add the following:**
 
-env
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_atlas_connection_string
-JWT_SECRET=your_jwt_secret_key
+    ```env
+    PORT=5000
+    MONGO_URI=your_mongodb_atlas_connection_string
+    JWT_SECRET=your_jwt_secret_key
+    ```
 
+2. **Run the application:**
 
-Run the application:
+    - **Open two terminal windows or tabs, one for the backend and one for the frontend.**
 
-Open two terminal windows or tabs, one for the backend and one for the frontend.
+    - **Backend:**
+      ```bash
+      cd backend
+      npm start
+      ```
 
-Backend:
+    - **Frontend:**
+      ```bash
+      cd frontend
+      npm start
+      ```
 
-bash
-Copy code
-cd backend
-npm start
-Frontend:
+    - The frontend will be served on `http://localhost:3000` and the backend on `http://localhost:5000`.
 
-bash
-Copy code
-cd frontend
-npm start
-The frontend will be served on http://localhost:3000 and the backend on http://localhost:5000.
+## Project Structure
 
-Project Structure
-plaintext
-Copy code
+```plaintext
 .
 ├── backend
 │   ├── controllers
@@ -104,43 +103,14 @@ Copy code
 │   │   └── App.js
 │   └── package.json
 └── README.md
-API Endpoints
-Authentication
-POST /api/auth/register: Register a new user.
-POST /api/auth/login: Login a user.
-Users
-GET /api/users: Get all users.
-GET /api/users/:id: Get user by ID.
-PUT /api/users/:id: Update user by ID.
-DELETE /api/users/:id: Delete user by ID.
-Resources
-GET /api/resources: Get all resources.
-POST /api/resources: Create a new resource.
-GET /api/resources/:id: Get resource by ID.
-PUT /api/resources/:id: Update resource by ID.
-DELETE /api/resources/:id: Delete resource by ID.
-Contributing
-Fork the repository.
-Create your feature branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a pull request.
-License
-This project is licensed under the MIT License.
+```
 
-Acknowledgements
-ReactJS
-ExpressJS
-MongoDB Atlas
-Material-UI
-Redux
-Contact
+
+
+# Contact
 Author: Your Name
-Email: your.email@example.com
-GitHub: yourusername
+Email: thuongcth03@gmail.com
+GitHub: hoaithuong
 Thank you for using our application! If you have any questions, feel free to reach out.
-
-less
-
 
 

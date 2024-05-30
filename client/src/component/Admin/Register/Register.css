@@ -1,0 +1,48 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+}
+
+.register-card {
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-form {
+  display: flex;
+}
+
+.left-group {
+  flex: 1;
+  padding-right: 20px; /* Khoảng cách giữa hai cột */
+}
+
+.right-group {
+  flex: 1;
+  padding-left: 20px; /* Khoảng cách giữa hai cột */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}

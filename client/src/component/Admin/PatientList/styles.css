@@ -1,0 +1,51 @@
+/* styles.css */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+
+  .custom-table thead {
+    background-color: #f0f0f0; /* Màu nền */
+  }
+  
+  .custom-table th {
+    padding: 10px; /* Khoảng cách giữa các ô */
+    text-align: left; /* Căn lề văn bản */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold; /* Độ đậm của chữ */
+    color: #333; /* Màu chữ */
+    border-bottom: 2px solid #ddd; /* Đường viền dưới */
+  }
+  
+  .custom-table th:first-child {
+    border-top-left-radius: 6px; /* Bo góc trái phía trên */
+  }
+  
+  .custom-table th:last-child {
+    border-top-right-radius: 6px; /* Bo góc phải phía trên */
+  }
+  
+  .custom-table th:hover {
+    background-color: #ddd; /* Màu nền khi di chuột vào */
+  }
+  .dropdown-menu {
+    right: 0;
+  }
+  
+  

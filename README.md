@@ -45,13 +45,15 @@ This web application is built using ReactJS for the frontend, ExpressJS for the 
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
-# Install backend dependencies
-cd backend
-npm install
+2. **Install backend dependencies**
+   ```bash
+   cd backend
+   npm install
 
-# Install frontend dependencies
-cd ../frontend
-npm install
+3. **Install frontend dependencies**
+   ```bash
+   cd ../frontend
+   npm install
 Set up environment variables:
 
 Create a .env file in the backend directory and add the following:

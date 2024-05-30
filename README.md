@@ -1,6 +1,6 @@
 # My HIS
 
-This web application is built using ReactJS for the frontend, ExpressJS for the backend, and MongoDB Atlas for the database. It offers a full-stack solution leveraging modern JavaScript frameworks and tools to deliver a seamless user experience.
+This web application is built using ReactJS for the frontend, ExpressJS for the backend, and MongoDB Atlas for the database.
 
 ## Features
 

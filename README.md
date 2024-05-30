@@ -56,14 +56,6 @@ This web application is built using ReactJS for the frontend, ExpressJS for the 
    npm install
 4. **Set up environment variables**
 
-1. **Create a `.env` file in the backend directory and add the following:**
-
-    ```env
-    PORT=5000
-    MONGO_URI=your_mongodb_atlas_connection_string
-    JWT_SECRET=your_jwt_secret_key
-    ```
-
 2. **Run the application:**
 
     - **Open two terminal windows or tabs, one for the backend and one for the frontend.**
